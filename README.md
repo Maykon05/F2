@@ -1,4 +1,4 @@
-@@ -0,0 +1,74 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +23,7 @@
         <form action="" method="POST" name="" id="">
             <label for="Nombre">Nombre de la persona</label>
             <input type="text" name="nombre"id="nombre"
-            placeholder="          "
+           
             maxlength=""
             minlength=""
             pattern="[A-Za-z]{1-20}"
@@ -34,7 +34,7 @@
             <br>
             <label for="telefono">numero de telefono</label>
                 <input type="tel" name="telefono"id="telefono"
-                placeholder="0000-0000"
+               
                 maxlength="9"
                 minlength="9"
                 pattern="[0-9]{4}-[0-9]{4}"
@@ -54,7 +54,7 @@
                 <br>
                 <label for="Fecha">Fecha de recepcion</label>
                 <input type="date" name="Fecha"id="Fecha"
-                 value="2020-01-01"
+               
                  min="1970-01-01"
                 max="2025-01-01"
                 required>
